@@ -46,7 +46,7 @@ client.on('messageCreate', async (message) => {
     // Respond to "mulla"
     if (message.content.toLowerCase() === 'mulla') {
         try {
-            await message.channel.send(`Talha zaquee, ${userMention}!`); // Tag the user in the response
+            await message.channel.send(`Talha Zaquee, ${userMention}!`); // Tag the user in the response
         } catch (error) {
             console.error('Error sending message:', error);
         }
